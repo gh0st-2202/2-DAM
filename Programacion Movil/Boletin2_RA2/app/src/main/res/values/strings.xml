@@ -1,0 +1,21 @@
+<resources>
+    <!-- Aplicacion -->
+    <string name="app_name">Calculadora IMC</string>
+    <string name="txt_inicio">CALCULA TU IMC</string>
+
+    <!-- CardView de Datos -->
+    <string name="btn_hombre">Hombre</string>
+    <string name="btn_mujer">Mujer</string>
+    <string name="txt_altura">Altura</string>
+    <string name="txt_peso">Peso</string>
+
+    <!-- CardView de Resultados-->
+    <string name="resultado_titulo">Tu IMC es de</string>
+
+    <string name="intro_imc">Tu IMC aparecera aqui</string>
+
+    <string name="bajo_peso">Bajo peso</string>
+    <string name="peso_normal">Peso normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidad">Obesidad</string>
+</resources>

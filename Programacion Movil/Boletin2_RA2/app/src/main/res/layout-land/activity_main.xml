@@ -1,0 +1,200 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <!-- Creamos un LinearLayout para el Main -->
+    <LinearLayout
+        android:id="@+id/lytMain"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- El texto que aparece arriba -->
+        <TextView
+            android:id="@+id/txtInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txt_inicio"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+
+        <!-- Creamos un Layout horizontal para que se ponga uno al lado del otro (en Horizontal) -->
+        <LinearLayout
+            android:id="@+id/lytHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- ===== CARD DATOS ===== -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/crdDatos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="@color/card_fondo"
+                app:strokeColor="@color/primario"
+                app:strokeWidth="1dp">
+
+                <!-- Creamos el Layout de los datos que se le piden al usuario para que aparezca unos encima del otro -->
+                <LinearLayout
+                    android:id="@+id/lytDatos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <!-- Menu de los Botones -->
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:id="@+id/grpSexo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:checkedButton="@id/btnHombre"
+                        app:selectionRequired="true"
+                        app:singleSelection="true">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnHombre"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/btn_hombre"
+                            app:icon="@drawable/outline_boy_36"
+                            app:iconGravity="textStart" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnMujer"
+                            style="?attr/materialButtonOutlinedStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/btn_mujer"
+                            app:icon="@drawable/outline_girl_36"
+                            app:iconGravity="textStart" />
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                    <!-- Layout del Slider altura + título -->
+                    <LinearLayout
+                        android:id="@+id/lytAltura"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtAltura"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_altura"
+                            android:textAlignment="center" />
+
+                        <com.google.android.material.slider.Slider
+                            android:id="@+id/sldAltura"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:stepSize="1"
+                            android:value="175"
+                            android:valueFrom="100"
+                            android:valueTo="250"
+                            app:labelBehavior="floating" />
+                    </LinearLayout>
+
+                    <!-- layout del Slider peso + título -->
+                    <LinearLayout
+                        android:id="@+id/lytPeso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtPeso"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_peso"
+                            android:textAlignment="center" />
+
+                        <com.google.android.material.slider.Slider
+                            android:id="@+id/sldPeso"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:stepSize="1"
+                            android:value="70"
+                            android:valueFrom="30"
+                            android:valueTo="200"
+                            app:labelBehavior="floating" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- ===== CARD RESULTADO ===== -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/crdResultado"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="@color/card_fondo"
+                app:strokeColor="@color/primario"
+                app:strokeWidth="2dp">
+
+                <!-- Creamos el Layout de los datos que se le piden al usuario para que aparezca unos encima del otro -->
+                <LinearLayout
+                    android:id="@+id/lytResultado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/resultado_titulo"
+                        android:textSize="15sp"
+                        android:textColor="@color/texto_secundario"/>
+
+                    <TextView
+                        android:id="@+id/txtIMC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="@string/intro_imc"
+                        android:textColor="@color/texto_principal"
+                        android:textSize="48sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtCategoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

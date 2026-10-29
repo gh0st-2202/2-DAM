@@ -1,0 +1,22 @@
+<resources>
+    <!-- Aplicacion -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pantalla Principal (colores sacados de IA) -->
+    <color name="fondo">#FFE3F2FD</color>
+    <color name="primario">#FF1976D2</color>
+    <color name="primario_oscuro">#FF0D47A1</color>
+    <color name="card_fondo">#FFFFFFFF</color>
+    <color name="texto_principal">#FF212121</color>
+    <color name="texto_secundario">#FF616161</color>
+    <color name="bajo_peso">#FF2196F3</color>
+    <color name="peso_normal">#FF4CAF50</color>
+    <color name="sobrepeso">#FFFF9800</color>
+    <color name="obesidad">#FFF44336</color>
+</resources>

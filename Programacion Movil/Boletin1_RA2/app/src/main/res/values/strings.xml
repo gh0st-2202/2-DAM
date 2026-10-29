@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Aplicacion de León</string>
+
+    <!-- Pantalla principal !-->
+    <string name="txt_bienvenida">Bienvenido a la ciudad de León</string>
+    <string name="txt_monumentos">Monumentos</string>
+    <string name="img_monumentos">Imagen monumentos</string>
+    <string name="txt_negocios">Negocios</string>
+    <string name="img_negocios">Imagen negocios</string>
+
+    <!-- Pantalla monumentos !-->
+    <string name="txt_titulo_monumentos">Descubre nuestros monumentos</string>
+    <string name="txt_titulo_monumento_1">Monumento a Ordoño II</string>
+    <string name="txt_monumento_1">Estatua dedicada al rey Ordoño II, símbolo de la historia y del legado medieval del Reino de León.</string>
+    <string name="img_monumento_1">Imagen monumento 1</string>
+    <string name="txt_titulo_monumento_2">Antiguo Ayuntamiento de León</string>
+    <string name="txt_monumento_2">Edificio histórico de la Plaza Mayor, destacado por su elegante fachada de piedra y su arquitectura tradicional leonesa.</string>
+    <string name="img_monumento_2">Imagen monumento 2</string>
+
+
+    <!-- Pantalla negocios !-->
+    <string name="txt_titulo_negocios">Explora nuestros grandes negocios</string>
+    <string name="txt_titulo_negocio_1">La Taberna del Barrio</string>
+    <string name="txt_negocio_1">Un rincón acogedor en el corazón de León donde disfrutar de buenas tapas, comida casera y el mejor ambiente de barrio. Ven a compartir buenos momentos, sabores auténticos y la hospitalidad de siempre.</string>
+    <string name="img_negocio_1">Imagen monumento 1</string>
+    <string name="txt_titulo_negocio_2">El serranillo</string>
+    <string name="txt_negocio_2">Descubre El Serranillo, un lugar donde la tradición y el buen producto se unen para ofrecerte sabores únicos. Disfruta de deliciosas tapas, productos de calidad y el auténtico ambiente leonés</string>
+    <string name="img_negocio_2">Imagen monumento 2</string>
+
+</resources>

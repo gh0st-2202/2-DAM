@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Leon</string>
+
+    <string name="txtBienvenida">¡Explora la ciudad como nunca antes!</string>
+    <string name="leonDescripcion">Aqui deberia ir el logo de León</string>
+    <string name="catedralDescripcion">Aqui deberia ir una foto de la catedral</string>
+
+    <!-- Botones -->
+    <string name="btnLugares">Lugares</string>
+    <string name="btnComida">Donde comer</string>
+    <string name="btnEventos">Eventos</string>
+    <string name="btnMapa">Mapa</string>
+
+    <!-- Tabuladores -->
+    <string name="tab_monumentos">Monumentos</string>
+    <string name="tab_restaurantes">Restaurantes</string>
+    <string name="tab_eventos">Eventos</string>
+
+    <!-- Monumentos -->
+    <string name="mon_catedral_nombre">Catedral de León</string>
+    <string name="mon_catedral_desc">La Pulchra Leonina, joya del gótico con vidrieras medievales.</string>
+    <string name="mon_catedral_estilo">Gótico</string>
+    <string name="mon_catedral_epoca">Siglos XIII-XIV</string>
+
+    <string name="mon_sanisidoro_nombre">Basílica de San Isidoro</string>
+    <string name="mon_sanisidoro_desc">Cumbre del románico español, con su Panteón Real.</string>
+    <string name="mon_sanisidoro_estilo">Románico</string>
+    <string name="mon_sanisidoro_epoca">Siglo XI</string>
+
+    <string name="mon_botines_nombre">Casa Botines</string>
+    <string name="mon_botines_desc">Obra modernista de Gaudí, con la leyenda de San Jorge.</string>
+    <string name="mon_botines_estilo">Modernista</string>
+    <string name="mon_botines_epoca">Siglo XIX</string>
+
+    <string name="mon_guzmanes_nombre">Palacio de los Guzmanes</string>
+    <string name="mon_guzmanes_desc">Palacio renacentista, actual sede de la Diputación.</string>
+    <string name="mon_guzmanes_estilo">Renacentista</string>
+    <string name="mon_guzmanes_epoca">Siglo XVI</string>
+
+    <!-- Restaurantes -->
+    <string name="res_humedo_nombre">Barrio Húmedo</string>
+    <string name="res_humedo_desc">La milla de las tapas leonesas por excelencia.</string>
+    <string name="res_humedo_cocina">Tapas</string>
+    <string name="res_humedo_web">https://lamayorgrupo.com/restauracion/la-bodega-del-humedo/</string>
+
+    <string name="res_mando_nombre">Casa Mando</string>
+    <string name="res_mando_desc">Cocina tradicional leonesa en el corazón del Húmedo.</string>
+    <string name="res_mando_cocina">Cocina tradicional</string>
+    <string name="res_mando_web">https://www.casamando.com/</string>
+
+    <string name="res_cocodrilo_nombre">El Cocodrilo</string>
+    <string name="res_cocodrilo_desc">Asador de referencia para probar la cecina de León.</string>
+    <string name="res_cocodrilo_cocina">Asador</string>
+    <string name="res_cocodrilo_web">https://www.facebook.com/CocodriloNegroBar</string>
+
+
+
+    <!-- Eventos -->
+    <string name="evt_froilan_nombre">San Froilán</string>
+    <string name="evt_froilan_desc">Fiestas patronales con verbenas y pasacalles.</string>
+    <string name="evt_froilan_fecha">5-12 oct</string>
+    <string name="evt_froilan_tipo">Fiestas</string>
+
+    <string name="evt_jazz_nombre">Festival de Jazz</string>
+    <string name="evt_jazz_desc">Conciertos en el Auditorio Ciudad de León.</string>
+    <string name="evt_jazz_fecha">10-15 nov</string>
+    <string name="evt_jazz_tipo">Concierto</string>
+
+    <string name="evt_mercado_nombre">Mercado Medieval</string>
+    <string name="evt_mercado_desc">Puestos de artesanía y gastronomía en el casco histórico.</string>
+    <string name="evt_mercado_fecha">1-3 jul</string>
+    <string name="evt_mercado_tipo">Mercado</string>
+
+</resources>

@@ -14,7 +14,8 @@ App Android en **Kotlin** que muestra información de la ciudad de León: monume
   - **Acelerómetro**: si se agita el dispositivo, el fondo se pone rojo durante 1 segundo.
 
 ## Estructura
-´´´
+
+```
 data/
 ├── Ubicacion.kt → Clase abstracta base
 ├── Monumento.kt → Monumento (estilo, época)
@@ -34,7 +35,7 @@ ventanasBotones/
 └── MapActivity.kt → Mapa con todas las ubicaciones
 
 MainActivity.kt → Menú principal + sensores
-´´´
+```
 
 ## Tecnologías
 

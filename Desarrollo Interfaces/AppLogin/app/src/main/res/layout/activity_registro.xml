@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_menu_add"
+            android:contentDescription="@string/cd_registro"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registro_titulo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etNuevoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_usuario"
+            android:inputType="textPersonName"
+            android:autofillHints="newUsername"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNuevaPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contrasena_min"
+            android:inputType="textPassword"
+            android:autofillHints="newPassword"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etRepetirPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/repetir_password"
+            android:inputType="textPassword"
+            android:autofillHints="newPassword"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnGuardarRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crear_cuenta" />
+
+        <Button
+            android:id="@+id/btnVolverRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/volver_login" />
+
+    </LinearLayout>
+</ScrollView>

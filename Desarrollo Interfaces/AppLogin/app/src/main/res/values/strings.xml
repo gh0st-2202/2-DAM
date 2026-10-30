@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginTrujilloCurro</string>
+
+    <!-- Common -->
+    <string name="taller_manolo">Manolo\'s Workshop</string>
+    <string name="usuario">Username</string>
+    <string name="contrasena">Password</string>
+    <string name="volver_login">Back to login</string>
+
+    <!-- Login screen -->
+    <string name="iniciar_sesion">Log In</string>
+    <string name="registrarse">Sign Up</string>
+    <string name="recuperar_password">Forgot your password?</string>
+    <string name="campos_vacios">Please fill in all fields</string>
+    <string name="acceso_correcto">Successfully logged in to Manolo\'s Workshop!</string>
+    <string name="usuario_no_registrado">That user is not registered. Sign up first</string>
+    <string name="credenciales_incorrectas">Incorrect username or password</string>
+
+    <!-- Welcome screen -->
+    <string name="bienvenida_titulo">Welcome to Manolo\'s Workshop!</string>
+    <string name="bienvenida_usuario">Welcome to Manolo\'s Workshop, %1$s!</string>
+    <string name="bienvenida_subtitulo">You have successfully logged in to the workshop management system.</string>
+    <string name="cerrar_sesion">Log Out</string>
+
+    <!-- Recovery screen -->
+    <string name="recuperar_titulo">Recover password</string>
+    <string name="usuario_hint">Your username</string>
+    <string name="buscar_password">Find my password</string>
+    <string name="escribir_usuario">Enter your username</string>
+    <string name="usuario_no_registrado_fmt">The user \"%1$s\" is not registered</string>
+    <string name="password_actual_fmt">Your current password is: %1$s</string>
+    <string name="cambiar_password_prompt">Do you want to change it? Enter a new one:</string>
+    <string name="nueva_password">New password</string>
+    <string name="repetir_nueva_password">Repeat the new password</string>
+    <string name="cambiar_password">Change password</string>
+    <string name="completa_dos_campos">Fill in both password fields</string>
+    <string name="password_min_6">Password must be at least 6 characters</string>
+    <string name="passwords_no_coinciden">Passwords do not match</string>
+    <string name="password_actualizada">Password updated successfully</string>
+    <string name="password_no_actualizada">Could not update password</string>
+
+    <!-- Registration screen -->
+    <string name="registro_titulo">User registration</string>
+    <string name="nombre_usuario">Username</string>
+    <string name="contrasena_min">Password (min. 6 characters)</string>
+    <string name="repetir_password">Repeat password</string>
+    <string name="crear_cuenta">Create account</string>
+    <string name="usuario_min_3">Username must be at least 3 characters</string>
+    <string name="usuario_sin_espacios">Username cannot contain spaces</string>
+    <string name="usuario_ya_existe">That user already exists, choose another</string>
+    <string name="usuario_registrado_fmt">User \"%1$s\" registered successfully</string>
+    <string name="no_se_pudo_registrar">Could not register user</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_logo">Workshop logo</string>
+    <string name="cd_bienvenida">Welcome icon</string>
+    <string name="cd_recuperar">Password recovery icon</string>
+    <string name="cd_registro">Registration icon</string>
+</resources>

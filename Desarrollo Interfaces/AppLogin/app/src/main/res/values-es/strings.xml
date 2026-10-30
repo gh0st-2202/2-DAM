@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginTrujilloCurro</string>
+
+    <!-- Comunes -->
+    <string name="taller_manolo">Taller Manolo</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="volver_login">Volver al login</string>
+
+    <!-- Pantalla de login -->
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="recuperar_password">¿Olvidaste tu contraseña?</string>
+    <string name="campos_vacios">Por favor, completa todos los campos</string>
+    <string name="acceso_correcto">¡Acceso con éxito al Taller Manolo!</string>
+    <string name="usuario_no_registrado">Ese usuario no está registrado. Regístrate primero</string>
+    <string name="credenciales_incorrectas">Usuario o contraseña incorrectos</string>
+
+    <!-- Pantalla de bienvenida -->
+    <string name="bienvenida_titulo">¡Bienvenido al Taller Manolo!</string>
+    <string name="bienvenida_usuario">¡Bienvenido al Taller Manolo, %1$s!</string>
+    <string name="bienvenida_subtitulo">Has iniciado sesión correctamente en el sistema de gestión del taller.</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Pantalla de recuperación -->
+    <string name="recuperar_titulo">Recuperar contraseña</string>
+    <string name="usuario_hint">Tu nombre de usuario</string>
+    <string name="buscar_password">Buscar mi contraseña</string>
+    <string name="escribir_usuario">Escribe tu nombre de usuario</string>
+    <string name="usuario_no_registrado_fmt">El usuario \"%1$s\" no está registrado</string>
+    <string name="password_actual_fmt">Tu contraseña actual es: %1$s</string>
+    <string name="cambiar_password_prompt">¿Quieres cambiarla? Escribe una nueva:</string>
+    <string name="nueva_password">Nueva contraseña</string>
+    <string name="repetir_nueva_password">Repite la nueva contraseña</string>
+    <string name="cambiar_password">Cambiar contraseña</string>
+    <string name="completa_dos_campos">Completa los dos campos de contraseña</string>
+    <string name="password_min_6">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="passwords_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="password_actualizada">Contraseña actualizada correctamente</string>
+    <string name="password_no_actualizada">No se pudo actualizar la contraseña</string>
+
+    <!-- Pantalla de registro -->
+    <string name="registro_titulo">Registro de usuario</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="contrasena_min">Contraseña (mín. 6 caracteres)</string>
+    <string name="repetir_password">Repite la contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="usuario_min_3">El usuario debe tener al menos 3 caracteres</string>
+    <string name="usuario_sin_espacios">El usuario no puede contener espacios</string>
+    <string name="usuario_ya_existe">Ese usuario ya existe, elige otro</string>
+    <string name="usuario_registrado_fmt">Usuario \"%1$s\" registrado correctamente</string>
+    <string name="no_se_pudo_registrar">No se pudo registrar el usuario</string>
+
+    <!-- Descripciones de contenido -->
+    <string name="cd_logo">Logo del taller</string>
+    <string name="cd_bienvenida">Icono de bienvenida</string>
+    <string name="cd_recuperar">Icono de recuperación de contraseña</string>
+    <string name="cd_registro">Icono de registro</string>
+</resources>

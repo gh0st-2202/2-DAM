@@ -1,4 +1,3 @@
-```markdown
 # Chat Offline
 
 Chat de consola con persistencia en XML usando JAXB.
@@ -46,4 +45,3 @@ Escribe `{ruta/al/archivo}` dentro de un mensaje.
 - `usuarios.xml`
 - `mensajes.xml`
 - `media/`
-```
